@@ -34,7 +34,6 @@ const App = () => {
   return (
     <div className="App">
       <NewExpenses onAddExpenseData={onAddExpenseDataHandler} />
-      {console.log(expenses)}
       <Expenses items={expenses} />
     </div>
   );
